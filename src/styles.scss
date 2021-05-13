@@ -1,0 +1,31 @@
+.occupants {
+    tr.data-list-item {
+        td {
+            padding:10px;
+        }
+    }
+}
+.carpark-chart{
+    // width: 100%;
+    // height: 100%;
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    flex-wrap: wrap;
+
+    .recharts-surface > .recharts-pie{
+        width: 100%;
+        height: 100%;
+
+        .recharts-layer{
+            width: 100%;
+            height: 100%;
+
+            .recharts-pie-sector{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
